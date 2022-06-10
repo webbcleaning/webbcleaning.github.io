@@ -1,0 +1,44 @@
+@font-face {
+    font-family: open-sans;
+    src: url("fonts/OpenSans-Regular.ttf");
+}
+
+body {
+    background-color: rgb(52, 54, 59);
+}
+
+
+h1 {
+    font-family: open-sans;
+    font-size: xx-large;
+}
+
+
+.info {
+    top: 0px;
+    left: 0px;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(89, 114, 124);
+    border: 5px solid rgb(200, 200, 200);
+
+    text-align: center;
+}
+
+.text {
+    font-family: open-sans;
+    font-size: large;
+}
+
+.banner {
+    position: sticky;
+    margin: auto;
+    width: 60%;
+    background-image: url("imgs/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    background-color: rgb(70, 70, 75);
+    border: 5px solid rgb(200, 200, 200);
+}
