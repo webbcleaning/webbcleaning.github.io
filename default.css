@@ -43,3 +43,11 @@ h1 {
     background-color: rgb(70, 70, 75);
     border: 5px solid rgb(200, 200, 200);
 }
+
+.images {
+    background-color: rgb(28, 36, 39);
+    border: 5px solid rgb(0, 0, 0);
+    overflow-y: scroll;
+    width: 98%;
+    height: 20%;
+}
